@@ -7,17 +7,39 @@ body {
   font-family: "Montserrat", sans-serif;
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.8;
+  margin: 0;
 }
 
 .topbar {
   background-color: white;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
-.topbar nav {
-  float: left;
+.topbar .topbar__nav {
+  padding: 31px 87px;
 }
-.topbar .social {
-  float: right;
+.topbar .topbar__nav .topbar__nav__a {
+  padding: 0 53px;
+  text-decoration: none;
+  color: #9F9F9F;
+  font-weight: 500;
+}
+.topbar .topbar__nav .topbar__nav__a:hover, .topbar .topbar__nav .topbar__nav__a.active {
+  color: #000;
+}
+.topbar .topbar__social .topbar__social__a {
+  margin: 0 12px;
+  opacity: 0.5;
+}
+.topbar .topbar__social .topbar__social__a:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=index.css.map */
