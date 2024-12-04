@@ -42,4 +42,20 @@ body {
   opacity: 1;
 }
 
+.baniere {
+  height: 467px;
+  background: url("assets/header.jpg") center center/cover no-repeat;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+}
+.body .main {
+  background-color: gray;
+}
+.body .sidebar {
+  background-color: lightgray;
+}
+
 /*# sourceMappingURL=index.css.map */
