@@ -52,10 +52,26 @@ body {
   align-items: center;
 }
 .body .main {
-  background-color: gray;
+  background-color: #FFF;
+  width: calc(100% - 375px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .body .sidebar {
-  background-color: lightgray;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: #FBFBFB;
+  width: 375px;
+  align-items: center;
+  justify-content: space-between;
+}
+.body .sidebar .sidebar__title {
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -56,13 +56,34 @@ body {
     height: 467px;
     background: url("assets/header.jpg") center center / cover no-repeat;
 }
-.body{
-    display:flex;
+
+.body {
+    display: flex;
     align-items: center;
-    .main{
-        background-color: gray;
+
+    .main {
+        background-color: #FFF;
+        width: calc(100% - 375px);
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
     }
-    .sidebar{
-        background-color: lightgray;
+
+    .sidebar {
+        padding:40px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        background-color: #FBFBFB;
+        width: 375px;
+        align-items: center;
+        justify-content: space-between;
+        .sidebar__title{
+            text-align:center;
+        }
     }
 }
