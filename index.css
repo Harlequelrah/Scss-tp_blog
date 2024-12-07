@@ -67,11 +67,27 @@ body {
   height: 200px;
   background-color: #FBFBFB;
   width: 375px;
-  align-items: center;
-  justify-content: space-between;
+}
+.body .sidebar:first-child {
+  margin-top: 0;
 }
 .body .sidebar .sidebar__title {
-  text-align: center;
+  font-size: 30px;
+  color: #000;
+  margin: 35px 0;
+}
+.body .sidebar .sidebar__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: justify;
+}
+.body .sidebar .sidebar__list .sidebar__list__a {
+  text-decoration: none;
+  color: #9F9F9F;
+}
+.body .sidebar .sidebar__list .sidebar__list__a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.css.map */
