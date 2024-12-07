@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     color: rgba(0, 0, 0, .87);
-    line-height: 1.8;
+    line-height: 1.6;
     margin: 0;
 }
 
@@ -26,8 +26,7 @@ body {
 
     .topbar__nav {
         padding: 31px 87px;
-
-        .topbar__nav__a {
+        a {
             padding: 0 53px;
             text-decoration: none;
             color: $link-color;
@@ -41,7 +40,7 @@ body {
     }
 
     .topbar__social {
-        .topbar__social__a {
+        a {
             margin: 0 12px;
             opacity: .5;
 
@@ -82,9 +81,15 @@ body {
         height: 200px;
         background-color: #FBFBFB;
         width: 375px;
-        
+
         &:first-child {
             margin-top: 0;
+        }
+        hr {
+            width:281px;
+            height:1px;
+            color: #c4c4c4;
+            margin:30px auto;
         }
 
         .sidebar__title {
@@ -93,13 +98,19 @@ body {
             margin: 35px 0;
         }
 
-        .sidebar__list {
+        .sidebar__ul {
             margin: 0;
             padding: 0;
             list-style-type: none;
             text-align: justify;
+            font-size:17px;
 
-            .sidebar__list__a {
+            li{
+                padding:6px 0;
+            }
+
+
+            a {
                 text-decoration: none;
                 color: $link-color;
 

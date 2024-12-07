@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: rgba(0, 0, 0, 0.87);
-  line-height: 1.8;
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -25,20 +25,20 @@ body {
 .topbar .topbar__nav {
   padding: 31px 87px;
 }
-.topbar .topbar__nav .topbar__nav__a {
+.topbar .topbar__nav a {
   padding: 0 53px;
   text-decoration: none;
   color: #9F9F9F;
   font-weight: 500;
 }
-.topbar .topbar__nav .topbar__nav__a:hover, .topbar .topbar__nav .topbar__nav__a.active {
+.topbar .topbar__nav a:hover, .topbar .topbar__nav a.active {
   color: #000;
 }
-.topbar .topbar__social .topbar__social__a {
+.topbar .topbar__social a {
   margin: 0 12px;
   opacity: 0.5;
 }
-.topbar .topbar__social .topbar__social__a:hover {
+.topbar .topbar__social a:hover {
   opacity: 1;
 }
 
@@ -71,22 +71,32 @@ body {
 .body .sidebar:first-child {
   margin-top: 0;
 }
+.body .sidebar hr {
+  width: 281px;
+  height: 1px;
+  color: #c4c4c4;
+  margin: 30px auto;
+}
 .body .sidebar .sidebar__title {
   font-size: 30px;
   color: #000;
   margin: 35px 0;
 }
-.body .sidebar .sidebar__list {
+.body .sidebar .sidebar__ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: justify;
+  font-size: 17px;
 }
-.body .sidebar .sidebar__list .sidebar__list__a {
+.body .sidebar .sidebar__ul li {
+  padding: 6px 0;
+}
+.body .sidebar .sidebar__ul a {
   text-decoration: none;
   color: #9F9F9F;
 }
-.body .sidebar .sidebar__list .sidebar__list__a:hover {
+.body .sidebar .sidebar__ul a:hover {
   text-decoration: underline;
 }
 
