@@ -26,6 +26,7 @@ body {
 
     .topbar__nav {
         padding: 31px 87px;
+
         a {
             padding: 0 53px;
             text-decoration: none;
@@ -85,17 +86,18 @@ body {
         &:first-child {
             margin-top: 0;
         }
+
         hr {
-            width:281px;
-            height:1px;
-            color: #c4c4c4;
-            margin:30px auto;
+            width: 281px;
+            height: 1px;
+            border-color: #c4c4c4;
+            margin: 50px 0;
         }
 
         .sidebar__title {
             font-size: 30px;
             color: #000;
-            margin: 35px 0;
+            margin: 15px 0;
         }
 
         .sidebar__ul {
@@ -103,10 +105,18 @@ body {
             padding: 0;
             list-style-type: none;
             text-align: justify;
-            font-size:17px;
+            font-size: 17px;
 
-            li{
-                padding:6px 0;
+            &:first-child {
+                padding-top: 0
+            }
+
+            &:last-child {
+                padding-bottom: 0
+            }
+
+            li {
+                padding: 6px 0;
             }
 
 
