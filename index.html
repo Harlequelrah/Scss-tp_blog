@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <title>Mon Blog</title>
 </head>
-<body>
-<header class="topbar">
-  <nav class="topbar__nav">
-    <a href="#" >Acceuil</a>
-    <a href="#" class="active">Article</a>
-    <a href="#" >À Propos</a>
-    <a href="#" >Contact</a>
-  </nav>
-  <div class="topbar__social">
-    <a href="#"><img src="assets/facebook.png" alt="facebook" title="facebook" aria-label="Visiter notre page Facebook"></a>
-    <a href="#"><img src="assets/twitter.png" alt="twitter" title="twitter" aria-label="Visiter notre page Twitter"></a>
-  </div>
 
-</header>
+<body>
+  <header class="topbar">
+    <nav class="topbar__nav">
+      <a href="#">Acceuil</a>
+      <a href="#" class="active">Article</a>
+      <a href="#">À Propos</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="topbar__social">
+      <a href="#"><img src="assets/facebook.png" alt="facebook" title="facebook"
+          aria-label="Visiter notre page Facebook"></a>
+      <a href="#"><img src="assets/twitter.png" alt="twitter" title="twitter"
+          aria-label="Visiter notre page Twitter"></a>
+    </div>
+
+  </header>
   <div class="baniere"></div>
   <div class="body">
     <main class="main">
       <article class="article">
-        <div>Publié le 11 Décembre 2024</div>
-        <h2>Le statut de Freelance</h2>
-        <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais aujourd'hui je
-        voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une longue explication sur le
-        statut, mon expér...</p>
-
+        <a href="article.html" class="article__img"><img src="assets/article.jpg" alt="article"></a>
+        <!-- <div class="article__content"> -->
+          <div class="article__date">Publié le 11 Décembre 2024</div>
+          <h2 class="article__title"> <a href="article.html" class="article__img">Le statut de Freelance</a> </h2>
+          <p>Dans un précédent podcast on s'était intéressé au métier de développeur web de manière générale mais
+            aujourd'hui je
+            voulais me focaliser sur le statut de freelance en particulier. Plutôt que de faire une longue explication
+            sur
+            le
+            statut, mon expér...</p>
+        <!-- </div> -->
       </article>
 
     </main>
     <aside class="sidebar">
 
-        <h4 class="sidebar__title">Catégories</h4>
-        <ul class="sidebar__ul">
-          <li><a href="#" >Dragon Ball Z</a></li>
-          <li><a href="#" >Naruto</a></li>
-          <li><a href="#" >Bleach</a></li>
-          <li><a href="#" >Black Clover</a></li>
-          <li><a href="#" >Jujustu kaisen</a></li>
-          <li><a href="#" >Demon Slayer</a></li>
+      <h4 class="sidebar__title">Catégories</h4>
+      <ul class="sidebar__ul">
+        <li><a href="#">Dragon Ball Z</a></li>
+        <li><a href="#">Naruto</a></li>
+        <li><a href="#">Bleach</a></li>
+        <li><a href="#">Black Clover</a></li>
+        <li><a href="#">Jujustu kaisen</a></li>
+        <li><a href="#">Demon Slayer</a></li>
       </ul>
       <hr>
-        <h4 class="sidebar__title">Animés</h4>
-        <ul class="sidebar__ul">
-          <li><a href="#" >High-Tech</a></li>
-          <li><a href="#" >Concentré du Web</a></li>
-          <li><a href="#" >Z Propos</a></li>
-          <li><a href="#" >Astuces pour développeurs</a></li>
-          <li><a href="#" >Ressources</a></li>
-          <li><a href="#" >Bonnes pratiques</a></li>
-        </ul>
+      <h4 class="sidebar__title">Animés</h4>
+      <ul class="sidebar__ul">
+        <li><a href="#">High-Tech</a></li>
+        <li><a href="#">Concentré du Web</a></li>
+        <li><a href="#">Z Propos</a></li>
+        <li><a href="#">Astuces pour développeurs</a></li>
+        <li><a href="#">Ressources</a></li>
+        <li><a href="#">Bonnes pratiques</a></li>
+      </ul>
     </aside>
 
   </div>
@@ -62,4 +71,5 @@
   </footer>
 
 </body>
+
 </html>
