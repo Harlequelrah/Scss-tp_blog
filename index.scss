@@ -58,7 +58,8 @@ body {
     height: 467px;
     background: url("assets/header.jpg") center center / cover no-repeat;
 }
-
+footer{
+clear:both;}
 .body {
     display: flex;
     align-items: center;
@@ -77,6 +78,8 @@ body {
         .article {
             width: auto;
             height: 209px;
+            overflow:hidden;
+            margin-right:25px;
             // display: flex;
             // justify-items: center;
             // align-items: center;
@@ -89,6 +92,8 @@ body {
             //     flex-direction: column;
 
             // }
+            .article__date{
+            }
 
             .article__img {
                 width: 308px;
