@@ -68,6 +68,7 @@ footer {
 }
 .body .main .article {
   width: auto;
+  overflow: auto;
   height: 209px;
   overflow: hidden;
   margin-right: 25px;
@@ -75,6 +76,7 @@ footer {
 .body .main .article .article__img {
   width: 308px;
   float: left;
+  margin-right: 25px;
 }
 .body .main .article .article__img img {
   width: 100%;
