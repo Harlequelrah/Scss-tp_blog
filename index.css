@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: rgba(0, 0, 0, 0.87);
@@ -67,11 +67,25 @@ footer {
   z-index: 2;
 }
 .body .main .article {
-  width: auto;
-  overflow: auto;
-  height: 209px;
   overflow: hidden;
-  margin-right: 25px;
+}
+.body .main .article a {
+  text-decoration: none;
+  color: inherit;
+}
+.body .main .article a:hover {
+  text-decoration: underline;
+}
+.body .main .article .article__title {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-family: "Carlo", serif;
+  margin: 0 0 15px 0;
+}
+.body .main .article .article__date {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.06);
+  margin-bottom: 5px;
 }
 .body .main .article .article__img {
   width: 308px;
