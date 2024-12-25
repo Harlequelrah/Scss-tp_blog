@@ -5,7 +5,8 @@ this is just a little tp building a blog by html , scss .
 
 ### Screenshot
 
-![Screenshot](./screenshots/navbar_screenshot.png)
+![navbar](./screenshots/navbar_screenshot.png)
+![body](./screenshots/body_screenshot.png)
 
 
 
